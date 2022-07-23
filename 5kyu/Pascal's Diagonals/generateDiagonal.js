@@ -18,3 +18,13 @@ function generateDiagonal(n, l) {
 
   return result;
 }
+
+// function generateDiagonal(n, l) {
+//   let arr = Array(l).fill(1);
+//   for (let i = 0; i < n; ++i) {
+//     for (let j = 1; j < l; ++j) {
+//       arr[j] += arr[j - 1];
+//     }
+//   }
+//   return arr;
+// }
